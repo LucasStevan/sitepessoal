@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Parallax</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main>
+            <section class="module parallax parallax-1">
+                <h1>Olá, seja bem vindo (a)&#128513;!!!</h1>
+            </section>
+
+    <!--section 1-->
+
+            <section class="module content">
+                <div class="container">
+                    <h2>Hmmm, você é um recrutador ou curioso &#128514;?</h2>
+                    <p>
+                        <h3>Um pouco sobre este mero construtor:</h3>
+                        <h4>Apaixonado por Tecnologias, Dados, Segurança Física e Digital. 
+                            Um profissional dedicado e apaixonado por dados e tecnologia, mas também pela segurança de outros indivíduos, 
+                            sempre buscando desafios que me permitam crescer e contribuir de forma significativa. Desenvolvendo soluções 
+                            inovadoras e impactantes.
+                            Compilando a segurança da informação seguindo as diretrizes da LGPD com habilidades analíticas e um olhar bem crítico,
+                            bem, você tem eu &#128517;
+                        </h4>
+                    </p>
+                </div>
+            </section>
+            
+    <!--Section 2-->
+            <section class="module parallax parallax-2">
+                <h1>Faminto por Informações &#128523; </h1>
+            </section>
+
+            <section class="module content">
+                <div class="container">
+                    <h2>Vamos falar de Skills &#129299;?</h2>
+                    <p>
+                        <h3>Não tenho todas do mundo, mas o google existe (não me impedindo de ter mais), tirando as que não sei ainda, tenho essas aqui para oferecer, talvez ajude:</h3>
+                    </p>
+                    <p>
+                        <h4>
+                            Business Intelligence (BI) • looker • Google Sheets • Microsoft Office •  
+                            Raciocínio lógico • Criatividade • 
+                            Estruturas de Dados • Programação Orientada a Objetos (POO) • GA4 • Habilidades Analíticas • Análise de Segurança • Visualização de Dados • Tecnologia da Informação • Análise de Dados em Negócios • Power BI • Google 
+                            Analytics • 
+                            Banco de dados • Big data • Análise de dados Análise de Big Data • ETL • QA • Segurança da Informação • Segurança de dados • Apache • Linux • Redes de Internet • Estruturas de rede de internet •
+                            Blockchain • Smart contracts.
+                        </h4>
+                    </p>
+                    <p>
+                        <h3>
+                            Uns conhecimentos em Linguagens artificiais também agrega valor &#128527;?
+                        </h3>
+                    </p>
+                    <p>
+                        <h4>
+                            • SQL • Python • Sol • Java (básico) • javascript • HTML • CSS • Bootstrap • Node.js • React .
+                        </h4>
+                    </p>
+                </div>
+            </section>
+
+    <!--Section 3-->
+              
+            <section class="module parallax parallax-3">
+            </section>
+            <!---Emoji do esquilo não encontrei código-->
+            <!---Outros Emojis encontrei o código do seguinte site: https://www.w3schools.com/ -->
+            <section class="module content">
+                <div class="container">
+                    <h2>Despedida do agente Scrat🐿️ ...Digo, Lucas &#128514; 
+                    </h2>
+                    <p>
+                        Bom, essa foi minha breve apresentação, espero te ver aqui nas futuras atualizações &#128526;...
+                    </p>
+                    <p>
+                        Não deixe de conferir em detalhes meus raros projetos de bolha tech na seção abaixo &#128071; &#x1F609; 
+                    </p>
+                    <div class="module-flex">
+
+                        <p>
+                            <a href="https://www.linkedin.com/in/infoseclucasoliveira/"><button class="b1">LinkedIn</button></a>
+                        </p>
+
+                        <p>
+                            <a href="https://github.com/LucasStevan"><button class="b2">My GitHub</button></a>
+                        </p>
+
+                        <p>
+                            <a href="https://api.whatsapp.com/send?phone=5564993005673"><button class="b3">WhatsApp</button></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        const main = document.querySelector('main');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const speed = 0.2;
+            const position = scrollTop * speed;
+            main.style.backgroundPosition = `50% ${position}px`;
+        });
+    </script>
+</body>
+</html>
