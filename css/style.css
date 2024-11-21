@@ -8,6 +8,23 @@ body {
     color: #f7f7f7;
 }
 
+/* Foto */
+.foto-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.foto-redonda {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 .wrapper {
     width: 100%;
     margin: 0 auto;
